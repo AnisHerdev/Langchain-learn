@@ -27,3 +27,23 @@
 
 
 ========================================
+
+**File:** `multimodal.py`
+
+**Image:** ![Buddhist monk image](buddhist-monk.jpg)
+
+**Question:** Descibe this image to a 5 year old.
+
+**Response:** Okay, let's look at this picture!
+
+> "Wow, look at this! Can you see the person in the middle? They're wearing a super bright, long **orange outfit**, like a big, comfy blanket!
+>
+> Their head is smooth and shiny, and we can see their back as they walk. They're going up some big, dark **steps**, like they're going into a very special house.
+>
+> Look at the **roof** of the house! It has so many little lines, like tiny, tiny bricks all stacked up. And on the sides, there are pretty white and gold **decorations** hanging down, like fancy party lanterns.
+>
+> It looks a little bit dark inside the special house, like a cozy, quiet place. The person is walking right towards it, maybe to explore what's inside!"
+
+
+========================================
+
