@@ -47,3 +47,37 @@
 
 ========================================
 
+# RAG Agent Example: Jurassic Park
+
+**Context (Jurassic Park sentences):**
+- I woke up excited for a day trip to Jurassic Park.
+- At the park entrance I felt a mix of awe and nervousness as towering ferns and distant roars greeted me.
+- I saw a herd of long-necked sauropods grazing peacefully in the valley.
+- A group of nimble raptors dashed through the underbrush, watching me with curious eyes.
+- A massive Tyrannosaurus rex appeared on a ridge, its thunderous footsteps making the ground tremble.
+- I ate a packed sandwich under a canopy of cycads while watching pterosaurs glide overhead.
+- On a trail I tasted sweet berries I found, cautious but unable to resist their flavor.
+- I felt a cold sweat when a triceratops charged nearby, then relief as it calmed and returned to grazing.
+- The air smelled of wet earth, vegetation, and something ancient that made my skin prickle.
+- I helped feed a gentle herbivore some leaves and felt a surprising sense of connection.
+- At midday I sheltered from a sudden storm in a rocky overhang, listening to dinosaurs call in the rain.
+- I watched a dramatic predator chase in the distance, heart pounding as the hunters pursued their prey.
+- As evening fell the sky turned orange and the park grew quieter, leaving me reflective and grateful for the experience.
+- I left the park tired but exhilarated, the images and emotions of the day replaying in my mind.
+
+**Question:** What all dinosaurs did the person see?
+
+**Model Response:** The person saw a Tyrannosaurus rex, sauropods, raptors, and pterosaurs.
+
+**Tool retrieval context used:**
+- A massive Tyrannosaurus rex appeared on a ridge, its thunderous footsteps making the ground tremble.
+- I saw a herd of long-necked sauropods grazing peacefully in the valley.
+- At midday I sheltered from a sudden storm in a rocky overhang, listening to dinosaurs call in the rain.
+- I woke up excited for a day trip to Jurassic Park.
+- A group of nimble raptors dashed through the underbrush, watching me with curious eyes.
+- I ate a packed sandwich under a canopy of cycads while watching pterosaurs glide overhead.
+- At the park entrance I felt a mix of awe and nervousness as towering ferns and distant roars greeted me.
+
+
+========================================
+
