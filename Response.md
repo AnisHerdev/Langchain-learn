@@ -81,3 +81,98 @@
 
 ========================================
 
+# Dynamic System Prompts: Quantum Computing Explanation
+
+**File:** `dynamic_system_prompts.py`
+
+**Prompt:** Explain quantum computing.
+
+---
+
+## Role: Expert
+
+**Response:** 
+
+Quantum computing is a revolutionary paradigm that leverages the principles of quantum mechanics to perform computations. Unlike classical computers that store information as bits representing either 0 or 1, quantum computers utilize **qubits**.
+
+Here's a breakdown of the core concepts:
+
+**1. Qubits and Superposition:**
+
+*   **Classical Bit:** A classical bit is a binary digit, existing in one of two definite states: 0 or 1.
+*   **Qubit:** A qubit, on the other hand, can exist in a superposition of both 0 and 1 simultaneously. This means a qubit can be represented as a linear combination of the basis states $|0\rangle$ and $|1\rangle$:
+    $$|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$$
+    where $\alpha$ and $\beta$ are complex probability amplitudes, and the condition $|\alpha|^2 + |\beta|^2 = 1$ must hold (representing the total probability of measuring either 0 or 1).
+*   **Implication:** This ability to be in multiple states at once allows quantum computers to explore a vast number of possibilities concurrently. For $n$ qubits, a quantum computer can represent $2^n$ states simultaneously. This exponential scaling is the source of quantum computing's potential power.
+
+**2. Entanglement:**
+
+*   **Definition:** Entanglement is a quantum phenomenon where two or more qubits become correlated in such a way that their fates are linked, regardless of the distance separating them. Measuring the state of one entangled qubit instantaneously influences the state of the other(s).
+*   **Mathematical Representation:** For two entangled qubits, their combined state cannot be described as a simple product of individual qubit states. For example, the Bell state $|\Phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$ is an entangled state. If you measure the first qubit and find it to be $|0\rangle$, you instantly know the second qubit is also $|0\rangle$, and vice-versa.
+*   **Implication:** Entanglement allows for complex correlations between qubits, enabling sophisticated computations and communication protocols that are impossible with classical systems. It's a crucial resource for many quantum algorithms.
+
+**3. Quantum Gates and Circuits:**
+
+*   **Quantum Gates:** Similar to classical logic gates (AND, OR, NOT), quantum computers use quantum gates to manipulate qubits. These gates are represented by unitary matrices, which are reversible operations.
+*   **Examples of Quantum Gates:**
+    *   **Hadamard Gate (H):** Creates superposition. For example, $H|0\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)$ and $H|1\rangle = \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle)$.
+    *   **Pauli Gates (X, Y, Z):** Analogous to classical NOT (X), and other transformations (Y, Z). For example, $X|0\rangle = |1\rangle$ and $X|1\rangle = |0\rangle$.
+    *   **CNOT Gate (Controlled-NOT):** A two-qubit gate that flips the target qubit if and only if the control qubit is in the $|1\rangle$ state. This gate is fundamental for creating entanglement.
+*   **Quantum Circuits:** A sequence of quantum gates applied to a set of qubits forms a quantum circuit, analogous to a classical circuit. The computation proceeds by applying these gates in a specific order.
+
+**4. Measurement:**
+
+*   **Collapse of Superposition:** When a qubit in superposition is measured, its quantum state collapses into one of the basis states ($|0\rangle$ or $|1\rangle$) with a probability determined by its probability amplitudes.
+*   **Probabilistic Nature:** Quantum computation is inherently probabilistic. To obtain a reliable result, a quantum algorithm is typically run multiple times, and the most frequent outcome is taken as the answer.
+*   **Information Extraction:** Measurement is the process by which we extract classical information from a quantum computation. However, it also destroys the quantum state.
+
+**Why is Quantum Computing Powerful?**
+
+The power of quantum computing stems from its ability to exploit superposition and entanglement to perform computations that are intractable for even the most powerful classical supercomputers. This leads to potential speedups for specific types of problems:
+
+*   **Factoring Large Numbers (Shor's Algorithm):** Can break modern encryption schemes like RSA.
+*   **Searching Unsorted Databases (Grover's Algorithm):** Offers a quadratic speedup over classical search algorithms.
+*   **Simulating Quantum Systems:** Crucial for drug discovery, materials science, and understanding complex chemical reactions.
+*   **Optimization Problems:** Finding optimal solutions in complex scenarios.
+*   **Machine Learning:** Developing new quantum machine learning algorithms.
+
+**Challenges and Current State:**
+
+Quantum computing is still in its nascent stages of development. Significant challenges remain:
+
+*   **Decoherence:** Qubits are extremely sensitive to their environment (heat, electromagnetic noise). Interactions with the environment cause qubits to lose their quantum properties (superposition and entanglement), a phenomenon called decoherence.
+*   **Error Correction:** Quantum computers are prone to errors. Developing robust quantum error correction codes is essential for building fault-tolerant quantum computers.
+*   **Scalability:** Building and controlling a large number of high-quality qubits is a major engineering hurdle.
+*   **Algorithm Development:** Discovering new quantum algorithms that can exploit quantum advantages for a wider range of problems is an ongoing area of research.
+
+**Types of Quantum Computers:**
+
+*   **Gate-Based Quantum Computers:** The most common model, using quantum gates to perform computations.
+*   **Quantum Annealers:** Designed specifically for optimization problems, using a process of "annealing" to find the lowest energy state of a system.
+
+In summary, quantum computing represents a fundamental shift in computation, offering the potential to solve problems currently beyond our reach. While significant challenges exist, ongoing research and development are steadily advancing the field towards practical quantum computers.
+
+---
+
+## Role: Beginner
+
+**Response:**
+
+Quantum computing uses **quantum mechanics** to perform calculations.
+
+Instead of bits (0s and 1s), it uses **qubits**. Qubits can be 0, 1, or **both at the same time** (superposition).
+
+This allows quantum computers to explore many possibilities simultaneously, making them potentially much faster for certain problems like drug discovery or breaking encryption.
+
+---
+
+## Role: Child
+
+**Response:**
+
+Imagine a regular computer is like a light switch. It can be either ON or OFF. That's how it stores information.
+
+Quantum computers are like a dimmer switch. They can be ON, OFF, or somewhere in between! This "in between" lets them do way more amazing things and solve super tricky puzzles much faster.
+
+========================================
+
